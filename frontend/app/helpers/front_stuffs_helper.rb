@@ -1,0 +1,2 @@
+module FrontStuffsHelper
+end

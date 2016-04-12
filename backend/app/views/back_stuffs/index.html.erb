@@ -1,0 +1,27 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Back Stuffs</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Back</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @back_stuffs.each do |back_stuff| %>
+      <tr>
+        <td><%= back_stuff.back %></td>
+        <td><%= link_to 'Show', back_stuff %></td>
+        <td><%= link_to 'Edit', edit_back_stuff_path(back_stuff) %></td>
+        <td><%= link_to 'Destroy', back_stuff, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Back stuff', new_back_stuff_path %>
