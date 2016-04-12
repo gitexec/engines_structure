@@ -1,7 +1,22 @@
 PATH
   remote: .
   specs:
+    backend (0.0.1)
+      rails (~> 4.2.5.2)
+    core (0.0.1)
+      rails (~> 4.2.5.2)
     engines_structure (0.0.1)
+      backend (= 0.0.1)
+      core (= 0.0.1)
+      frontend (= 0.0.1)
+      rails (~> 4.2.5.2)
+      shop (= 0.0.1)
+      tree (= 0.0.1)
+    frontend (0.0.1)
+      rails (~> 4.2.5.2)
+    shop (0.0.1)
+      rails (~> 4.2.5.2)
+    tree (0.0.1)
       rails (~> 4.2.5.2)
 
 GEM

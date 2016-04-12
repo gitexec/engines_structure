@@ -18,11 +18,11 @@ Gem::Specification.new do |s|
   s.test_files = Dir["test/**/*"]
 
   s.add_dependency "rails", "~> 4.2.5.2"
-  s.add_dependency 'engines_structure_shop', s.version
-  s.add_dependency 'engines_structure_tree', s.version
-  s.add_dependency 'engines_structure_core', s.version
-  s.add_dependency 'engines_structure_backend', s.version
-  s.add_dependency 'engines_structure_frontend', s.version
+  s.add_dependency 'shop', s.version
+  s.add_dependency 'tree', s.version
+  s.add_dependency 'core', s.version
+  s.add_dependency 'backend', s.version
+  s.add_dependency 'frontend', s.version
 
   s.add_development_dependency "sqlite3"
 
