@@ -18,6 +18,7 @@ Gem::Specification.new do |s|
   s.test_files = Dir["test/**/*"]
 
   s.add_dependency "rails", "~> 4.2.5.2"
+  #TUTORIAL: 1. Include every engines to the host engine
   s.add_dependency 'shop', s.version
   s.add_dependency 'tree', s.version
   s.add_dependency 'core', s.version
